@@ -5,13 +5,13 @@ from selenium.webdriver.common.by import By
 
 
 # 添加成员信息
-from test_page.base_page import BasePage
+from WebWeworkPractice1.test_page.base_page import BasePage
 
 
 class AddMember(BasePage):
     def add_member(self, name, id, phone):
         # 避免循环导入；局部导入
-        from test_page.contact_page import Contact
+        from WebWeworkPractice1.test_page.contact_page import Contact
 
         self.find(By.ID, "username").send_keys(name)
         self.find(By.ID, "memberAdd_acctid").send_keys(id)

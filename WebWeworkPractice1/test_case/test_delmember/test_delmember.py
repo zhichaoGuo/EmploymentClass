@@ -1,10 +1,8 @@
 import pytest
 import yaml
 
-from test_page import contact_page
-from test_page.main_page import MainPage
-from selenium import webdriver
-import test_page.contact_page
+
+from WebWeworkPractice1.test_page.main_page import MainPage
 
 
 class TestDelmember:

@@ -2,7 +2,7 @@
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.remote.webelement import WebElement
 
-from get_cookie.MainLogin import TestLogin
+from WebWeworkPractice1.get_cookie.MainLogin import TestLogin
 
 
 class BasePage:

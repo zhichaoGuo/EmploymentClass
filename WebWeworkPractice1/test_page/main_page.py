@@ -3,9 +3,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-from test_page.add_member_page import AddMember
-from test_page.base_page import BasePage
-from test_page.contact_page import Contact
+from WebWeworkPractice1.test_page.add_member_page import AddMember
+from WebWeworkPractice1.test_page.base_page import BasePage
+from WebWeworkPractice1.test_page.contact_page import Contact
 
 
 # 主页

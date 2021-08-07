@@ -4,6 +4,10 @@
  - get_cookie
     - cookies.yaml:`储存cookies的yaml文件`
     - MainLogin.py:`通过复用浏览器的形式登录获取cookies`
+ - mail  发送邮件相关内容，未集成到项目中
+   - Mail_pro.py:`发送邮件的相关方法`
+    - readreport.py:`获取最新的邮件时间`
+    - test_send_mail.py:`测试发送邮件`
  - test_case
    - test_addmember
       - case_addmember.yaml:`储存测试用例的yaml文件`

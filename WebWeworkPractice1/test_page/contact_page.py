@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # 通讯录页面
-from test_page.add_member_page import AddMember
-from test_page.base_page import BasePage
+from WebWeworkPractice1.test_page.add_member_page import AddMember
+from WebWeworkPractice1.test_page.base_page import BasePage
 
 
 class Contact(BasePage):
