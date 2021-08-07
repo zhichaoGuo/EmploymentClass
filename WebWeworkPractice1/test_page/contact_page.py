@@ -9,8 +9,10 @@ from WebWeworkPractice1.test_page.base_page import BasePage
 
 
 class Contact(BasePage):
+    # 点击添加成员
     def click_add_member(self):
         sleep(1)
+        # 循环等待元素可点击后，点击元素
         while True:
             # *ele 解元组
             self.find_and_click(By.CSS_SELECTOR, ".ww_operationBar .js_add_member")
@@ -20,6 +22,7 @@ class Contact(BasePage):
                 break
         return AddMember(self.driver)
 
+    # 获取成员列表
     def get_member(self):
         sleep(1)
         member_list = []
@@ -28,10 +31,12 @@ class Contact(BasePage):
             member_list.append(value.get_attribute("title"))
         return member_list
 
+    # 传入成员名称，点击成员
     def click_member(self,member_name):
         self.find_and_click(By.XPATH,f"//*[@title='{member_name}']/../td[1]/input")
         return Contact(self.driver)
 
+    # 点击删除成员
     def click_delmember(self):
         self.find_and_click(By.XPATH,"//*[@class='js_has_member']/div[1]/a[3]")
         return Contact(self.driver)

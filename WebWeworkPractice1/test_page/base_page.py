@@ -43,16 +43,20 @@ class BasePage:
         # if self._base_url != "":
         #     self.driver.get(self._base_url)
 
+    # 工具方法，查找并返回元素
     def find(self, by, locator):
         return self.driver.find_element(by, locator)
 
+    # 工具方法，查找并点击
     def find_and_click(self, by, locator):
         ele: WebElement = self.find(by, locator)
         ele.click()
         return ele
 
+    # 工具方法，查找多个元素
     def finds(self, by, locator):
         return self.driver.find_elements(by, locator)
 
+    # 工具方法，退出页面
     def quit_page(self):
         self.driver.quit()

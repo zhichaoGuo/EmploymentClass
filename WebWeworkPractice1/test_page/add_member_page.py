@@ -9,6 +9,7 @@ from WebWeworkPractice1.test_page.base_page import BasePage
 
 
 class AddMember(BasePage):
+    # 添加成员
     def add_member(self, name, id, phone):
         # 避免循环导入；局部导入
         from WebWeworkPractice1.test_page.contact_page import Contact
