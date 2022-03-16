@@ -45,3 +45,8 @@
     完成PO模式封装
 ## AppWeworkPractice1
     完成企业微信移动端添加联系人删除联系人用例
+## 飞书大作业
+    使用所学知识，结合selenium、appium、及request进行web UI自动化，APP UI自动化，及接口自动化测试基础搭建。
+## jenkins_selenium
+    将selenium和jenkins结合，初步实现持续集成
+    
