@@ -1,0 +1,13 @@
+create_tag:
+  -
+    - 12
+    - "UI test"
+
+update_tag:
+  -
+    - 12
+    - "UI design"
+
+delete_tag:
+  -
+    - 12

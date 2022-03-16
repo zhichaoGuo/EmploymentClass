@@ -1,0 +1,4 @@
+create_tag: https://qyapi.weixin.qq.com/cgi-bin/tag/create
+update_tag: https://qyapi.weixin.qq.com/cgi-bin/tag/update
+delete_tag: https://qyapi.weixin.qq.com/cgi-bin/tag/delete
+list_tag: https://qyapi.weixin.qq.com/cgi-bin/tag/list
