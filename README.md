@@ -43,3 +43,5 @@
 ## WebWeworkPractice1
     在企业微信web端中，通过 Cookie 或者 Remote 浏览器复用完成添加联系人测试用例
     完成PO模式封装
+## AppWeworkPractice1
+    完成企业微信移动端添加联系人删除联系人用例

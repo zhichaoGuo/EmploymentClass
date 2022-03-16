@@ -1,0 +1,6 @@
+get_tenant_access_token: https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal/
+create_user: https://open.feishu.cn/open-apis/contact/v3/users
+get_user_data: https://open.feishu.cn/open-apis/contact/v3/users/
+get_user_list: https://open.feishu.cn/open-apis/contact/v3/users
+delete_user: https://open.feishu.cn/open-apis/contact/v3/users/
+get_contact_power_list: https://open.feishu.cn/open-apis/contact/v1/scope/get
