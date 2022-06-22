@@ -9,15 +9,14 @@ class App(BasePage):
     def start(self):
         if self.driver is None:
             desire_cap = {
-                "platformName": "android",
+                "platformName": "Android",
                 # 模拟器
                 # "devicename": "127.0.0.1:7555",
                 # 真机
-                "devicename": "192.168.101.9: 5555",
+                "devicename": "192.168.31.222: 5555",
                 "platformVersion": '8.1.0',
                 "appPackage": "com.tencent.wework",
-                "appActivity": ".launch.WwMainActivity",
-                "automationName": "uiautomator1",
+                "appActivity": ".launch.LaunchSplashActivity",
                 "unicodeKeyBoard": True,
                 "resetKeyBoard": True,
                 "noReset": True
